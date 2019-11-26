@@ -21,6 +21,11 @@
       height: 60vh;
     }
 
+  .cart-img{
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+  }
     @media (max-width: 740px) {
 
       html,
@@ -44,10 +49,11 @@
   </style>
 </head>
 
-{% include "navbar.html" %}
+
 
 <body>
 
+    {% include "navbar.html" %}
     <div class="mt-5 pt-4">
     {% if messages %}
         {% for message in messages %}
@@ -60,7 +66,6 @@
         {% endfor %}
     {% endif %}
     </div>
-
     {% block content %}
     {% endblock content %}
 
@@ -69,7 +74,6 @@
 
     {% include "footer.html" %}
     {% include "scripts.html" %}
-
     {% block extra_scripts %}
     {% endblock extra_scripts %}
 </body>
