@@ -38,11 +38,13 @@ class Item(models.Model):
     title = models.CharField(max_length=100)
     price = models.FloatField()
     discount_price = models.FloatField(blank=True, null=True)
-    category = models.CharField(choices=CATEGORY_CHOICES, max_length=2)
+    category = models.CharField(max_length=100)
     label = models.CharField(choices=LABEL_CHOICES, max_length=1)
     slug = models.SlugField()
     description = models.TextField()
     image = models.ImageField()
+    ISBN =  models.CharField(max_length=100,null=True)
+    author =  models.CharField(max_length=100,null=True)
 
     def __str__(self):
         return self.title

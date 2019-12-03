@@ -1,0 +1,1 @@
+Insert into core_item(id,title,price,label,slug,description,image,category) values (3, "",8,'S','ATTWN','One of the most famous and beloved mysteries from The Queen of Suspense—Agatha Christie—now a Lifetime TV movie.','ATTWN.jpg','fiction');
