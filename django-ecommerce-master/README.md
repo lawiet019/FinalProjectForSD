@@ -1,6 +1,6 @@
 # Bookstore based on Django
 ## overview
-The project is to create an online bookstore which include the basic function of an online store including showing products, adding to the cart, buying the product online. Its target customers are buyers who hope to get books, especially well-chosen relaxing book online with ideal price. In fact, the project is based on the incomplete clothes store whose online address is https://github.com/lawiet019/FinalProjectForDB/invitations.
+The project is to create an online bookstore which include the basic function of an online store including showing products, adding to the cart, buying the product online. Its target customers are buyers who hope to purchase books, especially well-chosen relaxing books online with ideal prices. In fact, the project is based on the incomplete clothes store whose online address is https://github.com/lawiet019/FinalProjectForDB/invitations. We use this in order to have a foundation for our code.
 
 ## to run the project
 You should use the command ```pip install -r requirements.txt``` firstly
